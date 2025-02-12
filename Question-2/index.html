@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body class="bg-secondary">
+    <div class="container vh-100 d-flex justify-content-center align-items-center">
+        <div class="row bg-light shadow py-3 mx-3 rounded-3 ">
+        <div class="col-12 text-center fs-4">
+            <p>what is the answer of: <span id="ques"></span></p>
+            <label for="answer">Enter the Answer Below:</label> <br>
+            <input type="text" id="input" class="p-2"> <br>
+            <button class="btn border-2 border-primary mt-3 px-5" id="btn">Check</button>
+        </div>
+        <div class="col-12 text-center mt-3 fs-4" id="none">
+            <p class="answer">Your Answer is: <span id="user-ans" ></span></p>
+            <p class="answer">Actual Answer is: <span id="actual-ans" ></span></p>
+            </div>
+        </div>
+    </div>
+    
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+   <script src="App.js"></script> 
+</body>
+</html>

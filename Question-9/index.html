@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Dynamic Table</title>
+  <style>
+    table {
+      border-collapse: collapse;
+      width: 50%;
+      margin-top: 20px;
+    }
+    td, th {
+      border: 1px solid grey;
+      text-align: center;
+      padding: 8px;
+    }
+    #tableContainer{
+      display: flex;
+      justify-content: center;
+    }
+  </style>
+</head>
+<body>
+  <div style="text-align: center; margin-top: 20px;">
+    <label for="rows">Rows:</label>
+    <input type="number" id="rows" min="1" placeholder="Enter rows">
+    <label for="columns">Columns:</label>
+    <input type="number" id="columns" min="1" placeholder="Enter columns">
+    <button id="generateTable">Generate Table</button>
+    <div id="tableContainer"></div>
+  </div>
+
+  <script src="App.js"></script>
+</body>
+</html>
